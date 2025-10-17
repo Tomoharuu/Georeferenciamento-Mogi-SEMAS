@@ -5,7 +5,7 @@ m = folium.Map((-23.55233585417125, -46.18997249002586), zoom_start=11)
 popup = folium.GeoJsonPopup(fields=["NOME","CRAS", "CREAS"])
 popup2 = folium.GeoJsonPopup(fields=["NOME","CRAS", "CREAS"])
 popup3 = folium.GeoJsonPopup(fields=["NOME","CRAS", "CREAS"])
-geo_json_data = 'abairramento_final.geojson'
+geo_json_data = 'bairros_mogi.geojson'
 
 cras = folium.FeatureGroup(name="CRAS", show=True).add_to(m)
 creas = folium.FeatureGroup(name="CREAS", show=False).add_to(m)
